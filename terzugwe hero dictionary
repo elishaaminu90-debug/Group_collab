@@ -1,0 +1,144 @@
+# Terzungwe Hero dictionary containing 20 words across 5 Nigerian languages
+Terzungwe_Hero_dictionary = {
+nigerian_dictionary = {
+    "Morning": {
+        "Hausa": "Safe", 
+        "Yoruba": "Owuro", 
+        "Igbo": "Ututu", 
+        "Tiv": "Pepi", 
+        "Igala": "Edu"
+    },
+    "Afternoon": {
+        "Hausa": "Rana", 
+        "Yoruba": "Osan", 
+        "Igbo": "Ehihie", 
+        "Tiv": "Membe", 
+        "Igala": "Odu"
+    },
+    "Evening": {
+        "Hausa": "Yamma", 
+        "Yoruba": "Ale", 
+        "Igbo": "Mgbe-anyasi", 
+        "Tiv": "Aikighe", 
+        "Igala": "Abane"
+    },
+    "Good": {
+        "Hausa": "Maikyau", 
+        "Yoruba": "Dara", 
+        "Igbo": "Oma", 
+        "Tiv": "Doo", 
+        "Igala": "Onyo"
+    },
+    "Bad": {
+        "Hausa": "Mugun", 
+        "Yoruba": "Buruku", 
+        "Igbo": "Njo", 
+        "Tiv": "Ibo", 
+        "Igala": "Ebi"
+    },
+    "Mother": {
+        "Hausa": "Uwa", 
+        "Yoruba": "Iya", 
+        "Igbo": "Nne", 
+        "Tiv": "Ngo", 
+        "Igala": "Iye"
+    },
+    "Father": {
+        "Hausa": "Uba", 
+        "Yoruba": "Baba", 
+        "Igbo": "Nna", 
+        "Tiv": "Ter", 
+        "Igala": "Ata"
+    },
+    "Brother": {
+        "Hausa": "Wane", 
+        "Yoruba": "Arakunrin", 
+        "Igbo": "Nwanne-nwoke", 
+        "Tiv": "Anngọ u nomsu", 
+        "Igala": "Onenyi"
+    },
+    "Sister": {
+        "Hausa": "Ya", 
+        "Yoruba": "Arabinrin", 
+        "Igbo": "Nwanne-nwanyi", 
+        "Tiv": "Anngọ u kase", 
+        "Igala": "Omiya"
+    },
+    "Baby": {
+        "Hausa": "Jariri", 
+        "Yoruba": "Omo-owo", 
+        "Igbo": "Nwa-ohuru", 
+        "Tiv": "Wanye-kikir", 
+        "Igala": "Oma-kekele"
+    },
+    "Well": {
+        "Hausa": "Lafiya", 
+        "Yoruba": "Dada", 
+        "Igbo": "Ofuma", 
+        "Tiv": "Dedoo", 
+        "Igala": "Onyo"
+    },
+    "Hungry": {
+        "Hausa": "Yunwa", 
+        "Yoruba": "Ebi", 
+        "Igbo": "Aguru", 
+        "Tiv": "Ijen", 
+        "Igala": "Ebi"
+    },
+    "Tired": {
+        "Hausa": "Gajiya", 
+        "Yoruba": "Are", 
+        "Igbo": "I Ike-ogwugwu", 
+        "Tiv": "Ishima-vihin", 
+        "Igala": "Olo-mewun"
+    },
+    "Sick": {
+        "Hausa": "Rashin lafiya", 
+        "Yoruba": "Aisan", 
+        "Igbo": "Oria", 
+        "Tiv": "Uange", 
+        "Igala": "Ura"
+    },
+    "Tall": {
+        "Hausa": "Dogo", 
+        "Yoruba": "Giga", 
+        "Igbo": "Ogo-ogologo", 
+        "Tiv": "Gule", 
+        "Igala": "Oga"
+    },
+    "Short": {
+        "Hausa": "Gajere", 
+        "Yoruba": "Kukuru", 
+        "Igbo": "Mkpumkpu", 
+        "Tiv": "Tihi", 
+        "Igala": "Uke"
+    },
+    "Elder": {
+        "Hausa": "Dattijo", 
+        "Yoruba": "Agba", 
+        "Igbo": "Okenye", 
+        "Tiv": "Or-vesen", 
+        "Igala": "Ogijo"
+    },
+    "Respect": {
+        "Hausa": "Girmamawa", 
+        "Yoruba": "Iteriba", 
+        "Igbo": "Nsọpụrụ", 
+        "Tiv": "Icivir", 
+        "Igala": "Unyo"
+    },
+    "Happy": {
+        "Hausa": "Farin ciki", 
+        "Yoruba": "Idunnu", 
+        "Igbo": "Anuri", 
+        "Tiv": "Iember", 
+        "Igala": "Oyo"
+    },
+    "Laughter": {
+        "Hausa": "Dariya", 
+        "Yoruba": "Erin", 
+        "Igbo": "Ochi", 
+        "Tiv": "Iheen", 
+        "Igala": "Emun"
+    }
+}
