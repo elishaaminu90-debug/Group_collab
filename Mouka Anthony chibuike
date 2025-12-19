@@ -1,0 +1,27 @@
+"No":{
+         "Hausa": "A'a",
+         "Igbo": "Mba",
+         "Calabar": "koi",
+         "Fulani": "kayya", 
+         "Yoruba": "beeko",
+       },
+       "Food": {
+                    "Hausa": "abinci",
+                    "Igbo": "nri",
+                    "Calabar": "udim",
+                    "Fulani": "nyaamdu",
+                    "Yoruba": "ounje",
+                   },
+         "Cloth": {
+                    "Hausa": "karya",
+                    "Igbo": "àkwú",
+                    "Calabar": "ebon",
+                    "Fulani": "giyjo",
+                    "Yoruba": "aso",
+                    },
+         "Love": {
+                     "Hausa": "kauna",
+                     "Calabar": "ihunanya",
+                     "Fulani": "nwet",
+                     "Yoruba": "ife",
+                     },
