@@ -28,34 +28,7 @@ def run():
             "igala": "Agba",
             "igbo": "Daalu"
         },
-        "yes": {
-            "yoruba": "Beeni",
-            "tiv": "Een",
-            "urhobo": "E",
-            "igala": "Ee",
-            "igbo": "Eye"
-        },
-        "no": {
-            "yoruba": "Rara",
-            "tiv": "Ei",
-            "urhobo": "Ejo",
-            "igala": "Iiye",
-            "igbo": "Mba"
-        },
-        "cat": {
-            "yoruba": "Ologbo",
-            "tiv": "Ali",
-            "urhobo": "Ologbo",
-            "igala": "Ololo",
-            "igbo": "Nwamba"
-        },
-        "dog": {
-            "yoruba": "Aja",
-            "tiv": "Iwa",
-            "urhobo": "Eran",
-            "igala": "Abia",
-            "igbo": "Nkita"
-        },
+        
         "house": {
             "yoruba": "Ile",
             "tiv": "Ya",
