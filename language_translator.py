@@ -166,7 +166,8 @@ def run():
             print("I don't know that word. Try again.")
             continue
 
-        print("\nLanguages are: {0}".format(', '.join(L)))
+     
+   print("\nLanguages are: {0}".format(', '.join(L)))
 
         L_choice = input("Pick a language: ").lower()
 
