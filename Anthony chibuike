@@ -1,0 +1,29 @@
+
+        "car": {
+            "yoruba": "Oko",
+            "tiv": "Mato",
+            "urhobo": "Imoto",
+            "igala": "Imoto",
+            "igbo": "Ugbo ala"
+        },
+        "water": {
+            "yoruba": "Omi",
+            "tiv": "Mnger",
+            "urhobo": "Ame",
+            "igala": "Omi",
+            "igbo": "Mmiri"
+        },
+        "food": {
+            "yoruba": "Ounje",
+            "tiv": "Kwaghgyan",
+            "urhobo": "Emo",
+            "igala": "Onje",
+            "igbo": "Nri"
+        },
+        "book": {
+            "yoruba": "Iwe",
+            "tiv": "Takerada",
+            "urhobo": "Obe",
+            "igala": "Otakada",
+            "igbo": "Akwukwo"
+        },
