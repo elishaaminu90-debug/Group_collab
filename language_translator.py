@@ -1,3 +1,46 @@
+import streamlit as st
+
+st.set_page_config(page_title="Multi-Language Dictionary", page_icon="")
+st.title(" Multi-Language Dictionary App")
+
+st.write("Enter your name and pick a word and language to see the translation:")
+
+D = {
+    "hello": {"yoruba": "Bawo", "tiv": "Msugh", "urhobo": "Mavo", "igala": "Agba", "igbo": "Ndeewo"},
+    "goodbye": {"yoruba": "O dabo", "tiv": "Msugh u", "urhobo": "Kude", "igala": "Ola ojo", "igbo": "Ka o di"},
+    "please": {"yoruba": "E jowo", "tiv": "Zaar", "urhobo": "Biko", "igala": "Abele", "igbo": "Biko"},
+    "thank you": {"yoruba": "E se", "tiv": "Msugh", "urhobo": "Wekobiruo", "igala": "Agba", "igbo": "Daalu"},
+    "yes": {"yoruba": "Beeni", "tiv": "Een", "urhobo": "E", "igala": "Ee", "igbo": "Eye"},
+    "no": {"yoruba": "Rara", "tiv": "Ei", "urhobo": "Ejo", "igala": "Iiye", "igbo": "Mba"},
+    "cat": {"yoruba": "Ologbo", "tiv": "Ali", "urhobo": "Ologbo", "igala": "Ololo", "igbo": "Nwamba"},
+    "dog": {"yoruba": "Aja", "tiv": "Iwa", "urhobo": "Eran", "igala": "Abia", "igbo": "Nkita"},
+    "house": {"yoruba": "Ile", "tiv": "Ya", "urhobo": "Uwevwin", "igala": "Unyi", "igbo": "Ulo"},
+    "car": {"yoruba": "Oko", "tiv": "Mato", "urhobo": "Imoto", "igala": "Imoto", "igbo": "Ugbo ala"},
+    "water": {"yoruba": "Omi", "tiv": "Mnger", "urhobo": "Ame", "igala": "Omi", "igbo": "Mmiri"},
+    "food": {"yoruba": "Ounje", "tiv": "Kwaghgyan", "urhobo": "Emo", "igala": "Onje", "igbo": "Nri"},
+    "book": {"yoruba": "Iwe", "tiv": "Takerada", "urhobo": "Obe", "igala": "Otakada", "igbo": "Akwukwo"},
+    "pen": {"yoruba": "Kalamu", "tiv": "Jokol", "urhobo": "Ukeke", "igala": "Kalamu", "igbo": "Pen"},
+    "school": {"yoruba": "Ile-iwe", "tiv": "Fada", "urhobo": "Isikuru", "igala": "Unkoche", "igbo": "Ulo akwukwo"},
+    "family": {"yoruba": "Ebi", "tiv": "Tsombor", "urhobo": "Ekru", "igala": "Abogjo", "igbo": "Ezi na ulo"},
+    "friend": {"yoruba": "Ore", "tiv": "Ijua", "urhobo": "Ogbesu", "igala": "Omule", "igbo": "Enyi"},
+    "love": {"yoruba": "Ife", "tiv": "Dooshima", "urhobo": "Guono", "igala": "Ufedo", "igbo": "Hunanya"},
+    "happy": {"yoruba": "Inu didun", "tiv": "Saana", "urhobo": "Oghogho", "igala": "Ayoyo", "igbo": "Obi uto"},
+    "sad": {"yoruba": "Ibaniuje", "tiv": "Achi", "urhobo": "Uweri", "igala": "Edoji", "igbo": "Iwe"}
+}
+
+languages = ["yoruba", "tiv", "urhobo", "igala", "igbo"]
+
+name = st.text_input("Enter your name:")
+if name:
+    st.write(f"Hi, {name}!")
+
+    word = st.selectbox("Select a word:", list(D.keys()))
+    language = st.selectbox("Select a language:", languages)
+
+    if st.button("Translate"):
+        translation = D[word][language]
+        st.success(f"**{word.capitalize()}** in **{language.capitalize()}** is: **{translation}**")
+
 def run():
     D = {
         "hello": {
